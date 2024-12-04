@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Transform</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .box {
+            height: 50px;
+            width: 50px;
+            background-color: aquamarine;
+            border: 2px solid black;
+            /* transform: rotatex(50deg); */
+            transform: rotate(0.125turn);
+            /* transform: scalex(1.5); */
+            /* transform: skew(66deg);  
+                    skew properties ka use Z Axis mai nhi hoota */
+            /* transform: translate(100%);  ek se zada transform property use kr rahe hai tho space deke krnge */
+            /* transform: translateY(50%) skewx(40deg) translateX(-50%); */
+
+            /* transform translate hum (-100, -40) negative maibhi use hota ahi usee content bahar nikal jyega  */
+            display:  flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            height: 80vh;
+            width: 100vw;
+            border: 3px solid purple;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box"> box</div>
+    </div>
+</body>
+
+</html>

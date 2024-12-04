@@ -1,0 +1,136 @@
+ul{
+    display: flex;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 42px;
+}
+nav ul li{
+    list-style-type: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.right ul{
+    gap: 34px;
+    
+}
+.right ul li {
+    align-items: center;
+    cursor: pointer; 
+}
+
+.first span{
+    font-size: 45px;
+    font-family: sans-serif;
+    margin: 45px 0;
+}
+
+.first{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+.para{
+    font-size: 22px;
+    margin-bottom: 30px;
+    width: 60vw;
+    text-align: center;
+    font-family: sans-serif;
+    color: rgb(44, 44, 44)
+    
+}
+.button button{
+    background-color: #00b6d1;
+    font-weight: 700;
+    border-radius: 6px;
+    padding: 14px 4px;
+    border: none;
+    height: 45px;
+    color: white;
+    width: 300px;
+    margin-bottom: 30px;
+}
+.second .small{
+   font-size: 13px;
+}
+.second span{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ 
+.yellow{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.yellow img{
+    margin: 0 10px;
+}
+.second{
+    max-width: 70vw;
+    margin: auto;
+}
+.grid{
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr;
+    gap: 12px;
+ 
+}
+
+.item{
+    text-align: center;
+
+  
+}
+.item .lang{
+    text-align: center;
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    padding-bottom: 36px
+   ;
+}
+
+.blue{
+    background: #00b6d1;
+   
+}
+
+.green{
+       background-color: #5cb85c;
+  
+
+}
+.btn{
+    font-weight: bold;
+    padding: 4px 8px;
+    width: 120px;
+    height: 38px;
+    border-radius: 6px;
+    border: none;
+    color:white;
+        
+}
+
+.btn a{
+    text-decoration: none;
+    color: white;
+}
+.item{
+    padding: 28px;
+    background: #f9f9f9;
+    border-radius: 12px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+@media only screen and (max-width:900px) {
+    .grid{
+        grid-template-columns: 1fr;
+    }
+    
+}

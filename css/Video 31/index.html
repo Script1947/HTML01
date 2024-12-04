@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Quaries</title>
+
+    <style>
+        body {
+            background-color: rgb(190, 43, 43);
+        }
+
+
+        @media  only screen and (orientation: portrait) {
+            body{
+                border: 2px solid purple;
+            }
+        }
+        @media only screen and (max-width:455px) {
+            body {
+                background-color: rgb(98, 98, 238);
+            }
+        }
+
+@media only screen and (max-width:455px){
+    .boxes{
+                flex-direction: column;
+            }
+    }
+
+
+        .boxes{
+            display: flex;
+        }
+        .box{
+            width: 344px;
+            height: 344px;
+            background-color: rgb(101, 180, 70);
+            padding: 3px;
+            margin: 3px;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div>
+        hey buddy i am a red guy!
+    </div>
+
+    <div class="boxes">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css variable</title>
+    <style>
+        :root{
+            --color:rgb(253, 174, 174);
+            --seccolor:rgb(248, 196, 99);
+            --defpad: 22px;
+            --defop:0.3;
+        }
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+        .nav{
+            background-color: var(--color);
+        }
+ ul{
+    display: flex;
+ }
+
+ ul li:first-child{
+                                                                      /* <isse ovevr krke likha hai> */
+            --color: rgb(243, 87, 8);    
+            background-color: var(--color);
+        }
+
+
+ ul li{
+   list-style-type: none;
+   padding: var(--defpad);
+   opacity: var(--defop);
+   
+ }
+
+
+        .container{
+            background-color: var(--seccolor);
+        }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <ul>
+            <li>home</li>
+            <li>name</li>
+            <li>Contact</li>
+        </ul>
+    </div>
+
+    <div class="container">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus sed voluptatum similique ex vero consectetur recusandae. Eveniet consequuntur explicabo pariatur nesciunt rem, enim distinctio totam earum porro expedita eum optio odit consectetur corporis.
+
+
+    </div>
+    
+</body>
+</html>

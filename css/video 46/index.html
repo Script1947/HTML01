@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Animation</title>
+    <style>
+
+        body{
+            margin: 200px 50px;
+        }
+                    /* animation: name duration timing-function delay iteration-count direction fill-mode;  */
+
+        .container{
+width: 70vw;
+height: 60vh;
+background-color: rgb(255, 120, 120);
+
+        }
+
+        .box{
+height: 15vh;
+width: 10vw;
+
+/* animation-name:  HarryKaAnimation;
+animation-duration:3s;
+animation-timing-function:cubic-bezier(0.455, 0.03, 0.515, 0.955);
+animation-delay: 1s;
+animation-iteration-count: 1;
+animation-direction:normal;
+animation-fill-mode:forwards;
+animation-play-state: paused;  */
+animation: HarryKaAnimation 3s cubic-bezier(0.455, 0.03, 0.515, 0.955) 1s 3 reverse forwards ,             
+        sachin2 3s cubic-bezier(0.455, 0.03, 0.515, 0.955) 1s 3 reverse forwards;
+          
+
+
+        }
+    
+        
+        @keyframes HarryKaAnimation {
+            from{
+background-color: red;
+
+
+            }
+            to{
+background-color: blue;
+transform: translateX(200px);
+            }
+        }
+       
+
+        @keyframes sachin2 {
+            20%{rotate: 100deg;}
+            50%{rotate: 140deg;}
+            60%{rotate: 240deg;}
+            80%{rotate: 300deg;}
+            100%{rotate: 360deg;}
+            
+        }
+    </style>
+</head>
+<body>
+ <div class="container">
+    <div class="box translate">HELLO</div>
+ </div>   
+</body>
+</html>
