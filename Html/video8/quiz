@@ -1,0 +1,30 @@
+
+    <!-- Quick Quiz:
+    Without using br tag, write a vertically aligned form asking for name, city and pincode of a user.
+    Everyone must comment -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz 1</title>
+</head>
+<body>
+    <form action="post">
+<div>
+    <input type="text" id=city name=city placeholder="Enter your city">
+
+    <label for="city"> your City</label>
+
+    <div>
+        <input type="text" id="pincode" placeholder="Enter your pincode">
+        <label for="pincode">pincode </label>
+
+    </div>
+    <div>
+        <input type="text"id=name placeholder="Enter your name">
+        <label for="name">name</label>
+    </div>
+</div>
+</body>
+</html>

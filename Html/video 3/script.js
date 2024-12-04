@@ -1,0 +1,1 @@
+alert("abb kya kr ke mane ga bahi")
