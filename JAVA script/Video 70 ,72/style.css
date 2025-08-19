@@ -1,0 +1,17 @@
+.box {
+    height: 45px;
+    width: 45px;
+    border: 2px solid rgb(8, 8, 8);
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
